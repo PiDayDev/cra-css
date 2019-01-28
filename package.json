@@ -1,0 +1,28 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "1.x",
+    "react-table": "~6.8.6"
+  },
+  "devDependencies": {
+    "babel-cli": "~6.26.0",
+    "eslint-plugin-import": "~2.14.0",
+    "eslint-plugin-jsx-a11y": "~5.1.1",
+    "eslint-plugin-react": "~7.11.1"
+  },
+  "browserslist": [
+    "Chrome >= 17"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
+  }
+}
